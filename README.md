@@ -1,0 +1,2 @@
+# metafacture-cookbook
+Metafacture examples.
