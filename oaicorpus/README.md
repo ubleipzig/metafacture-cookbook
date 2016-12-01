@@ -8,10 +8,17 @@ $ metha-sync http://www.ssoar.info/OAIHandler/request
 $ metha-cat -root Records http://www.ssoar.info/OAIHandler/request > input.xml
 ```
 
+Size:
+
+```
+$ wc -c input.xml
+162535329 input.xml
+```
+
 Run flux:
 
 ```
-$ flux.sh main.flux
+$ time flux.sh main.flux
 {
   "title": "Ethnographies of practice ...",
   "abstract": "...."
@@ -22,3 +29,4 @@ $ flux.sh main.flux
 ...
 ```
 
+About 9.4 seconds for 38294 records.
