@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+	version="1">
+
+	<rules>
+
+			<entity name="authors[]" flushWith="record"> <!-- Author -->
+				<entity name="" >
+						<!-- in oai:dc there is only dc:creator -->
+						<data source="metadata.dc.creator.value" name="rft.au"/>
+				</entity>
+			</entity>
+  			  	
+			<entity name="languages[]" flushWith="record"> <!-- Languages -->
+				<choose>
+					<!-- try to map language -->
+					<data source="metadata.dc.language.value" >
+						<lookup in="lang" />
+					</data>
+					<!-- default source value -->
+					<data source="metadata.dc.language.value" >
+					</data>
+				</choose>
+			</entity>
+			
+			<entity name="url[]" flushWith="record"> <!-- URL -->
+					<data source="metadata.dc.identifier.value" >
+					</data>
+			</entity>
+
+			<data source="metadata.dc.title.value" name="rft.atitle"> <!-- Title -->
+			</data>
+
+			<data source="metadata.dc.date.value" name="rft.date"> <!-- Date -->
+				<regexp match="^\d\d\d\d"/>
+			</data>
+			
+			
+			<entity name="rft.pub[]" flushWith="record"> <!-- Publisher -->
+				<data source="metadata.dc.publisher.value">
+				</data>
+			</entity>
+
+
+	</rules>
+	<maps>
+
+		<filemap name="lang" files="$[FLUX_DIR]lang.tsv" separator="\t" />
+
+	</maps>
+</metamorph>
