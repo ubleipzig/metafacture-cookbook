@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+
+	<record>
+	  <leader>     nam  2200000 u 4500</leader>
+	  <controlfield tag="001">0000002</controlfield>
+	  <controlfield tag="008">990812                       |||</controlfield>
+	  <datafield tag="100" ind1="1" ind2=" ">
+		<subfield code="a">Gregor, Ulrich</subfield>
+	  </datafield>
+	  <datafield tag="700" ind1="1" ind2=" ">
+		<subfield code="a">Patalas, Enno</subfield>
+	  </datafield>
+	  <datafield tag="245" ind1="0" ind2="0">
+		<subfield code="a">Geschichte des Films</subfield>
+		<subfield code="c">Ulrich Gregor ; Enno Patalas</subfield>
+	  </datafield>
+	  <datafield tag="260" ind1=" " ind2=" ">
+		<subfield code="a">Reinbek bei Hamburg</subfield>
+		<subfield code="b">Rowohlt</subfield>
+	  </datafield>
+	  <datafield tag="653" ind1=" " ind2=" ">
+		<subfield code="a">Filmgeschichte</subfield>
+	  </datafield>
+	</record>
+
+	<record>
+	  <leader>     nam  2200000 u 4500</leader>
+	  <controlfield tag="001">1234567</controlfield>
+	  <controlfield tag="008">990812                       |||</controlfield>
+	  <datafield tag="760" ind1="0" ind2=" ">
+		<subfield code="o">0000002</subfield>
+	  </datafield>
+	  <datafield tag="245" ind1="0" ind2="0">
+		<subfield code="n">1</subfield>
+		<subfield code="a">1895-1939</subfield>
+	  </datafield>
+	  <datafield tag="250" ind1=" " ind2=" ">
+		<subfield code="a">42.-44. Tsd.</subfield>
+	  </datafield>
+	  <datafield tag="260" ind1=" " ind2=" ">
+		<subfield code="c">1989</subfield>
+	  </datafield>
+	  <datafield tag="300" ind1=" " ind2=" ">
+		<subfield code="a">250 S. : Ill.</subfield>
+	  </datafield>
+	  <datafield tag="020" ind1=" " ind2=" ">
+		<subfield code="a">3-499-16193-1</subfield>
+	  </datafield>
+	  <datafield tag="901" ind1=" " ind2=" ">
+		<subfield code="a">00016988</subfield>
+	  </datafield>
+	</record>
+
+	<record>
+	  <leader>     nam  2200000 u 4500</leader>
+	  <controlfield tag="001">1234568</controlfield>
+	  <controlfield tag="008">990812                       |||</controlfield>
+	  <datafield tag="760" ind1="0" ind2=" ">
+		<subfield code="o">0000002</subfield>
+	  </datafield>
+	  <datafield tag="245" ind1="0" ind2="0">
+		<subfield code="n">2</subfield>
+		<subfield code="a">1940-1960</subfield>
+	  </datafield>
+	  <datafield tag="250" ind1=" " ind2=" ">
+		<subfield code="a">42.-44. Tsd.</subfield>
+	  </datafield>
+	  <datafield tag="260" ind1=" " ind2=" ">
+		<subfield code="c">1989</subfield>
+	  </datafield>
+	  <datafield tag="300" ind1=" " ind2=" ">
+		<subfield code="a">S. 264-555 : Ill.</subfield>
+	  </datafield>
+	  <datafield tag="020" ind1=" " ind2=" ">
+		<subfield code="a">3-499-16194-X</subfield>
+	  </datafield>
+	  <datafield tag="901" ind1=" " ind2=" ">
+		<subfield code="a">00016698</subfield>
+	  </datafield>
+	</record>
+	
+</collection>
