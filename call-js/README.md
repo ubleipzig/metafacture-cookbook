@@ -54,11 +54,3 @@ Steps:
   </data>
 </combine>
 ```
-
-Run:
-
-```
-$ flux.sh flux.flux
-{"finc.record_id":"finc-123-MDcwNC4wMDA0"}
-{"finc.record_id":"finc-123-MDcwNC4wMDEw"}
-```
